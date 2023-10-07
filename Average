@@ -1,0 +1,6 @@
+s = 0
+
+for i in range(3):
+    num = eval(input('Enter a number: '))
+    s = s + num
+print('The average is', s/3)
